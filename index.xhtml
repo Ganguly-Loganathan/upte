@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal PowerTech Engineering | Power Quality, Energy Savings & Automation</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar (Contains Official Logo Image & Menu) -->
+    <header>
+        <div class="logo-container">
+            <a href="#home" class="official-logo-link">
+                <!-- Replace 'logo.png' with your actual image path or URL -->
+                <img src="img/logo.png" alt="Universal PowerTech Engineering Logo" class="brand-logo-img">
+            </a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#vendors">Partners</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact" class="nav-cta">Make Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Slider Section -->
+    <section id="home" class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1920&q=80');">
+            <div class="slide-content">
+                <span class="slide-badge">Energy Optimization Experts</span>
+                <h1>Energy Savings Improves <span>Efficiency & Profit</span></h1>
+                <p>Delivering high-performance industrial electrical solutions, power quality audits, and advanced automation since 1998.</p>
+                <div class="btn-group">
+                    <a href="#solutions" class="btn btn-primary">Our Solutions <i class="fa fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80');">
+            <div class="slide-content">
+                <span class="slide-badge">Advanced Engineering</span>
+                <h1>Master Electrical & <span>Power Quality Solutions</span></h1>
+                <p>Mitigate transformer losses, harmonics, and transient errors with world-class LV switchgear, VFDs, and surge protection.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Get Consultation <i class="fa fa-arrow-right"></i></a>
+                    <a href="#vendors" class="btn btn-outline">View Partners</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80');">
+            <div class="slide-content">
+                <span class="slide-badge">Industrial Automation</span>
+                <h1>Smart LED Lighting & <span>Automation Systems</span></h1>
+                <p>Maximize plant productivity and lux levels while minimizing power consumption with cutting-edge smart automation.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Make An Enquiry <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="slider-arrow slider-prev" id="prevBtn"><i class="fa fa-chevron-left"></i></button>
+        <button class="slider-arrow slider-next" id="nextBtn"><i class="fa fa-chevron-right"></i></button>
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="about-grid">
+            <div class="about-text">
+                <span class="section-tag">Established 1998</span>
+                <h3>Powering Industrial Excellence Across Tamil Nadu</h3>
+                <p>Universal Powertech Engineering started in 1998 as <strong>Universal Marketing Agencies</strong> in Rajapalayam. Rebranded as Universal PowerTech Engineering in 2006, we expanded our footprint by opening our Chennai branch office in 2009 at Valasaravakkam.</p>
+                <p>We specialize in comprehensive technical products and customized solutions covering Electrical, Instrumentation, and Industrial Automation.</p>
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <h4>25+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>1000+</h4>
+                        <p>Projects Audited</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>100%</h4>
+                        <p>Client Trust</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-card">
+                <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" alt="Industrial Engineering">
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="section bg-light">
+        <div class="section-header">
+            <span class="section-tag">What We Offer</span>
+            <h2>Our Core Engineering Solutions</h2>
+            <p>Enhancing operational efficiency, safety, and energy savings for heavy industries.</p>
+        </div>
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-bolt"></i></div>
+                <h3>Master Electrical Check Up</h3>
+                <p>Identify how much energy your facility consumes, isolate high energy consumption issues, and receive actionable efficiency recommendations.</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-chart-line"></i></div>
+                <h3>Power Quality Solution</h3>
+                <p>Mitigate overheating and additional losses in transformers, motors, cables, and capacitors. Eliminate interference with communication signals.</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-lightbulb"></i></div>
+                <h3>Lighting System & Automation</h3>
+                <p>Replace conventional lighting with smart LED systems and automation to maintain optimal lux visibility with minimal power draw.</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-shield-alt"></i></div>
+                <h3>Protection System</h3>
+                <p>Transient error protection using Surge Protection Devices (SPD) and steady-state error protection with microprocessor-based relays.</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-network-wired"></i></div>
+                <h3>Cable Supporting System</h3>
+                <p>Robust cable trays, ladders, and supporting structures engineered for heavy-duty industrial cable management and routing safety.</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-icon"><i class="fa fa-fan"></i></div>
+                <h3>HVAC – Efficient Cooling Fan</h3>
+                <p>High-efficiency instrument cooling fans and ventilation solutions designed for superior thermal dissipation in electrical panels.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vendors / Products Section -->
+    <section id="vendors" class="section">
+        <div class="section-header">
+            <span class="section-tag">Global Partners</span>
+            <h2>Our Technical Products & Brands</h2>
+            <p>We partner with world-renowned manufacturers to supply reliable industrial components.</p>
+        </div>
+        <div class="vendors-grid">
+            <div class="vendor-card">
+                <h4>Siemens</h4>
+                <p>LV Switchgear & Motors</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Danfoss Vacon</h4>
+                <p>Variable Frequency Drives (VFD)</p>
+            </div>
+            <div class="vendor-card">
+                <h4>OBO Bettermann</h4>
+                <p>Surge Protection & Support</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Ebmpapst</h4>
+                <p>Instrument Cooling Fans</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Schaffner</h4>
+                <p>EMC & Active Harmonic Filters</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Eveready</h4>
+                <p>Industrial Lighting</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Delta</h4>
+                <p>Automation & Power</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Eltrac</h4>
+                <p>Energy Meters & EMS</p>
+            </div>
+            <div class="vendor-card">
+                <h4>Ingesco</h4>
+                <p>ESE Lightning Arrestors</p>
+            </div>
+            <div class="vendor-card">
+                <h4>ABB</h4>
+                <p>Capacitors & Harmonic Filters</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="section bg-light">
+        <div class="section-header">
+            <span class="section-tag">Trusted Clients</span>
+            <h2>Industries That Rely On Us</h2>
+            <p>Proudly serving leading manufacturing plants, infrastructure projects, and enterprises.</p>
+        </div>
+        <div class="clients-grid">
+            <div class="client-badge">Herrenknecht</div>
+            <div class="client-badge">GE</div>
+            <div class="client-badge">Arasan Aluminium Industries</div>
+            <div class="client-badge">KTV</div>
+            <div class="client-badge">Heavy Vehicles Factory (HVF)</div>
+            <div class="client-badge">L&T Rubber Processing Machinery</div>
+            <div class="client-badge">Chennai Metro Water</div>
+            <div class="client-badge">Heat And Control</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <span class="section-tag">Get In Touch</span>
+            <h2>Start Your Energy Optimization Journey</h2>
+            <p>Reach out to our engineering team for inquiries, consultations, or proposals.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info-side">
+                <div>
+                    <h3>Contact Information</h3>
+                    <p>Fill out the form or reach us directly through our Chennai or Rajapalayam offices.</p>
+                </div>
+                <div>
+                    <div class="contact-detail-item">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <div>
+                            <h5>Chennai Branch Office</h5>
+                            <p>Valasaravakkam, Chennai, Tamil Nadu, India.</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fa fa-building"></i>
+                        <div>
+                            <h5>Registered Office</h5>
+                            <p>Rajapalayam, Tamil Nadu, India.</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fa fa-phone-alt"></i>
+                        <div>
+                            <h5>Phone</h5>
+                            <p>044 - 2476 8113</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fa fa-envelope"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@universalpowertechengineering.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-social">
+                    <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="contact-form-side">
+                <form id="enquiryForm">
+                    <div class="form-group">
+                        <label for="name">Your Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Requirements / Comments</label>
+                        <textarea id="message" placeholder="Describe your energy or engineering requirements..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectFile">Upload Logo / Blueprint / Document (Optional)</label>
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="projectFile" accept="image/*,.pdf,.doc,.docx,.dwg">
+                            <div class="file-upload-fake">
+                                <i class="fa fa-cloud-upload-alt"></i> <span id="fileLabel">Choose file or drag here...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Submit Enquiry <i class="fa fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo-container">
+                <a href="#home" class="official-logo-link">
+                    <img src="logo.png" alt="Universal PowerTech Engineering Logo" class="brand-logo-img" style="filter: brightness(0) invert(1);">
+                </a>
+            </div>
+            <p>Energy Savings Improves Efficiency and Profit.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Universal PowerTech Engineering. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
